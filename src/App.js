@@ -7,9 +7,11 @@ import Chart from './chart.js'
 
 function App() {
   return (
-    <div class='row'>
-      < Table />
-      < Chart />
+    <div className="container-fluid">
+      <div className='row'>
+        < Table />
+        < Chart />
+      </div>
     </div>
   );
 }
